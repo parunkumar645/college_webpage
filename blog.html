@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EDUFORD_BLOG</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="images/logo.png" alt="logo" /></a>
+        <div class="nav-link" id="nav-link">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="course.html">COURSE</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="content.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+
+      <h1>Our Certificate & Online Programs For 2021</h1>
+    </section>
+
+    <!-- Blog page section -->
+    <section class="blog-content">
+      <div class="row">
+        <div class="blog-left">
+          <img src="images/certificate.jpg" alt="certificate" />
+          <h2>Our Certificate & Online Programs For 2021</h2>
+          <p>
+            Design Thinking - Skill and Career Development Pillar plays an
+            integral role in creating the illustrious placement training record
+            of our institutions. We SCD further facilitate training activities
+            of the students and makes sure they get placed in their dream
+            companies.The official training partner of our institution is FACE.
+            FACE- as a skill-development company, help students master the
+            skills required to land their dream careers.
+          </p>
+          <br />
+          <p>
+            FACE had trained the students’ in general verbal, quantitative and
+            reasoning ability along with the coding languages such as C, C++,
+            JAVA & PYTHON. In addition to this, the strong foundation on data
+            structure concepts.We are proud to announce that we have final
+            years’ as beneficiaries in the (2022 pass out) who got trained and
+            placed in the Reputed/Day-1 placement drives. And the list extends
+            to almost 90% of students who had enrolled for this year (2023)
+            placement training sessions by the FACE
+          </p>
+          <br />
+          <p>
+            Validation of Skills: Certifications provide concrete evidence of
+            your proficiency in a particular domain. They demonstrate to
+            employers that you possess the necessary skills and competencies to
+            excel in your role. Career Advancement: Holding relevant
+            certifications can open doors to new career opportunities and
+            advancement within your current organization. Employers often
+            prioritize candidates with certifications when making hiring and
+            promotion decisions. Industry Recognition: Many certifications are
+            globally recognized and endorsed by industry leaders and
+            professional organizations. Earning such certifications enhances
+            your credibility and demonstrates your dedication to staying updated
+            with industry standards and best practices.
+          </p>
+          <br />
+          <p>
+            Increased Earning Potential: Certified professionals often command
+            higher salaries compared to their non-certified counterparts.
+            Employers are willing to compensate individuals who have invested in
+            acquiring specialized skills and expertise through certifications.
+            Professional Development: Pursuing certifications allows you to
+            deepen your knowledge and expand your skill set in specific areas of
+            interest. It provides structured learning pathways and opportunities
+            for growth and advancement in your career.
+          </p>
+          <div class="comment-box">
+            <h3>Leave a comment</h3>
+            <form class="comment-form">
+              <input type="text" placeholder="Enter Name" />
+              <input type="email" placeholder="Enter Email" />
+              <textarea rows="5" placeholder="Your Comment"></textarea>
+              <button type="submit" class="hero-btn red-btn">
+                POST COMMENT
+              </button>
+            </form>
+          </div>
+        </div>
+        <div class="blog-right">
+          <h3>Post Categories</h3>
+          <div>
+            <span>Business Analytics</span>
+            <span>21</span>
+          </div>
+          <div>
+            <span>Data Science</span>
+            <span>28</span>
+          </div>
+          <div>
+            <span>Machine Learning</span>
+            <span>26</span>
+          </div>
+          <div>
+            <span>Computer Science</span>
+            <span>60</span>
+          </div>
+          <div>
+            <span>Infomation Technology</span>
+            <span>25</span>
+          </div>
+          <div>
+            <span>Software Engineering</span>
+            <span>15</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Fotter  -->
+    <section class="fotter">
+      <h4>About Us</h4>
+      <p>
+        Learn more about our dedicated faculty, innovative programs, and the
+        vibrant community that makes our institution a beacon of learning and
+        opportunity. <br />
+        Join us as we continue to shape the future of education and empower
+        individuals to achieve their dreams.
+      </p>
+      <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+      </div>
+      <p>Made With <i class="fa fa-heart-o"></i> AK<>TECH</p>
+    </section>
+
+    <!-- js for toogle menu  -->
+    <script>
+      var navLink = document.getElementById("nav-link");
+      function showMenu() {
+        navLink.style.right = "0";
+      }
+      function hideMenu() {
+        navLink.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>

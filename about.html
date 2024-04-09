@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EDUFORD_ABOUT_US</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="images/logo.png" alt="logo" /></a>
+        <div class="nav-link" id="nav-link">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="course.html">COURSE</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="content.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+
+      <h1>About Us</h1>
+    </section>
+    <!-- about us content -->
+    <section class="aboout-us">
+      <div class="row">
+        <div class="about-col">
+          <h1>We are the world's largest university</h1>
+          <p>
+            Our expansive array of academic programs, ranging from the arts and
+            humanities to STEM fields and beyond, ensures that every student can
+            pursue their passions and carve out their own path to success. With
+            world-class faculty, state-of-the-art facilities, and cutting-edge
+            research opportunities, we empower our students to push the
+            boundaries of knowledge and make meaningful contributions to
+            society.
+          </p>
+          <a href="" class="hero-btn red-btn">EXPLORE NOW </a>
+        </div>
+        <div class="about-col">
+          <img src="images/about.jpg" alt="about" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Fotter  -->
+    <section class="fotter">
+      <h4>About Us</h4>
+      <p>
+        Learn more about our dedicated faculty, innovative programs, and the
+        vibrant community that makes our institution a beacon of learning and
+        opportunity. <br />
+        Join us as we continue to shape the future of education and empower
+        individuals to achieve their dreams.
+      </p>
+      <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+      </div>
+      <p>Made With <i class="fa fa-heart-o"></i> AK<>TECH</p>
+    </section>
+
+    <!-- js for toogle menu  -->
+    <script>
+      var navLink = document.getElementById("nav-link");
+      function showMenu() {
+        navLink.style.right = "0";
+      }
+      function hideMenu() {
+        navLink.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>

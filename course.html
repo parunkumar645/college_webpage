@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EDUFORD_COURSES</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="images/logo.png" alt="logo" /></a>
+        <div class="nav-link" id="nav-link">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="course.html">COURSE</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="content.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+
+      <h1>Our Courses</h1>
+    </section>
+    <!-- Our Courses -->
+
+    <section class="course">
+      <h1>Courses We Offer</h1>
+      <p>
+        Discover a world of possibilities with our dynamic course offerings
+        spanning diverse disciplines from technology to humanities, empowering
+        you to forge your path to success.
+      </p>
+
+      <div class="row">
+        <div class="course-col">
+          <h3>Intermediate</h3>
+          <p>
+            At our institute, our intermediate courses serve as pivotal pathways
+            to mastery. Seamlessly blending foundational principles with
+            advanced insights, these courses propel students towards excellence,
+            nurturing their talents and empowering them to thrive in their
+            chosen fields.
+          </p>
+        </div>
+        <div class="course-col">
+          <h3>Degree</h3>
+          <p>
+            At our esteemed institute, we offer degree courses that serve as
+            gateways to boundless opportunities. With a commitment to academic
+            excellence and real-world relevance, our programs are designed to
+            empower students to achieve their aspirations and make a lasting
+            impact.
+          </p>
+        </div>
+        <div class="course-col">
+          <h3>Post Graduation</h3>
+          <p>
+            Embark on an enriching journey of academic rigor and professional
+            growth with our postgraduate programs. Tailored for aspiring
+            scholars and industry leaders, our postgraduate courses delve deep
+            into specialized fields, fostering advanced expertise and critical
+            thinking.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- Facilities Section -->
+    <section class="facilities">
+      <h1>Our Facilities</h1>
+      <p>
+        Experience excellence in every corner of our college facilities,
+        meticulously designed to support your academic journey. From modern
+        classrooms equipped with cutting-edge technology to vibrant student
+        lounges fostering collaboration and community, our facilities provide
+        the perfect environment for learning and growth.
+      </p>
+      <div class="row">
+        <div class="facilities-col">
+          <img src="images/library.png" alt="library" />
+          <h3>World Class Library</h3>
+          <p>
+            At our institution, our world-class library stands as a beacon of
+            knowledge, offering a sanctuary for academic exploration and
+            intellectual discovery. With an extensive collection of resources
+            spanning diverse disciplines and formats, from traditional print to
+            digital archives, our library serves as a hub for research,
+            learning, and innovation.
+          </p>
+        </div>
+        <div class="facilities-col">
+          <img src="images/basketball.png" alt="basketball" />
+          <h3>Largest Play Ground</h3>
+          <p>
+            At our institution, our expansive playground isn't just a space for
+            recreation; it's a canvas for fostering physical well-being,
+            teamwork, and memorable experiences. Stretching far and wide, our
+            largest playground offers endless opportunities for sports, leisure
+            activities, and outdoor events. From friendly matches to spirited
+            competitions, it's where friendships are forged, skills are honed,
+            and memories are made.
+          </p>
+        </div>
+        <div class="facilities-col">
+          <img src="images/cafeteria.png" alt="cafeteria" />
+          <h3>Tasty and Healthy Food</h3>
+          <p>
+            At our institution, we believe that nourishing the body is as
+            important as feeding the mind. That's why we take pride in offering
+            a delightful array of tasty and healthy food options that cater to
+            diverse palates and dietary needs. From freshly prepared meals
+            bursting with flavor to nutritious snacks and refreshing beverages,
+            our culinary offerings are crafted with care and quality
+            ingredients.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- Fotter  -->
+    <section class="fotter">
+      <h4>About Us</h4>
+      <p>
+        Learn more about our dedicated faculty, innovative programs, and the
+        vibrant community that makes our institution a beacon of learning and
+        opportunity. <br />
+        Join us as we continue to shape the future of education and empower
+        individuals to achieve their dreams.
+      </p>
+      <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+      </div>
+      <p>Made With <i class="fa fa-heart-o"></i> AK<>TECH</p>
+    </section>
+
+    <!-- js for toogle menu  -->
+    <script>
+      var navLink = document.getElementById("nav-link");
+      function showMenu() {
+        navLink.style.right = "0";
+      }
+      function hideMenu() {
+        navLink.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
